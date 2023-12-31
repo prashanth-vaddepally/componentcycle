@@ -1,0 +1,82 @@
+.the-page {
+  height: 100vh;
+  width: 80vw;
+  background-color: #cffcf1;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  padding-top: 70px;
+}
+.heading {
+  font-size: 22px;
+  font-weight: 200px;
+}
+.time-image {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  height: 60vh;
+  width: 40vw;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+.second-portion {
+  display: flex;
+  flex-direction: row;
+}
+.white-circle {
+  height: 120px;
+  width: 120px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 100px;
+  margin-left: 200px;
+  margin-top: 170px;
+}
+.second-right-portion {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-left: 10px;
+}
+.start-pause {
+  display: flex;
+  flex-direction: row;
+}
+.image-text {
+  font-size: 15px;
+}
+.set-timer-limit {
+  font-size: 16px;
+  font-weight: 70px;
+  padding-top: 50px;
+}
+.reset-setting {
+  height: 18px;
+  width: 18px;
+}
+.right-bottom {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 60px;
+  margin-left: 40px;
+}
+.minus {
+  font-size: 20px;
+  font-weight: 200px;
+}
+.plus {
+  font-size: 20px;
+  font-weight: 200px;
+}
+.input-setting {
+  background-color: #27b490;
+  height: 25px;
+  width: 35px;
+  border: none;
+  margin-top: 25px;
+}
+.date-show {
+  margin-top: 40px;
+  padding-top: 30px;
+}
